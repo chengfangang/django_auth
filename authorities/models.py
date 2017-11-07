@@ -15,7 +15,7 @@ class permissions(models.Model):
     status = models.IntegerField(null=False, default=1)
     visible = models.IntegerField(null=False, default=1)
     url = models.CharField(max_length=255)
-    crated_at = models.DateTimeField(auto_now_add=True)
+    created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now_add=True)
     view_order = models.IntegerField()
 

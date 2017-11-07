@@ -18,5 +18,5 @@ from django.conf.urls import url
 from .views import appsettings
 
 urlpatterns = [
-    url(r'appsettings/$', appsettings),
+    url(r'/appsettings/$', appsettings),
 ]

@@ -1,0 +1,28 @@
+
+{% extends 'base.html'%}
+
+{% block title %}首页{% endblock %}
+
+{% block breadcrumbs %}
+<li>
+	<i class="ace-icon fa fa-home home-icon"></i>
+   <a href="#">Home</a>
+</li>
+<li>
+	<a href="#">Other Pages</a>
+</li>
+<li class="active">Blank Page</li>
+{% endblock %}
+
+
+{% block page-content %}
+首页内容
+{% endblock %}
+
+{% block js-content %}
+<script>
+    function add(x, y) {
+        return x + y;
+    }
+</script>
+{% endblock %}
